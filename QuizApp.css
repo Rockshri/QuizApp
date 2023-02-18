@@ -1,0 +1,198 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+main {
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+main .container {
+  outline: 1px rgb(27, 27, 27) solid;
+  background-color: #ffffff;
+  height: 600px;
+  width: 600px;
+  border-radius: 8px;
+}
+main .container .quiz-app {
+  border-radius: 8px;
+  background-color: #7b0b73da;
+  height: 150px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+main .container .quiz-app #Enter-name {
+  /* border: 1px red solid; */
+  font-size: 15px;
+  margin-top: 2px;
+}
+main .container .quiz-app #text {
+  outline: 1px rgb(255, 255, 255) solid;
+  height: 25px;
+  width: 250px;
+  border-radius: 8px;
+  padding-left: 3px;
+}
+main .container .quiz-app #button {
+  outline: 2px rgb(255, 255, 255) solid;
+  height: 25px;
+  width: 80px;
+  border-style: none;
+  background-color: rgb(51, 134, 218);
+  border-radius: 8px;
+  cursor: pointer;
+}
+main .container .progress-bar {
+  border-bottom: 1px rgb(46, 46, 46) solid;
+  background-color: blanchedalmond;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+main .container .progress-bar > div {
+  background-color: rgba(184, 98, 32, 0.877);
+  outline: 1px rgb(207, 205, 205) solid;
+  height: 30px;
+  min-width: 150px;
+  border-radius: 8px;
+  padding: 2px 3px 0px 4px;
+}
+main .container .content-bar {
+  border: 1px rgb(255, 255, 255) solid;
+  height: 300px;
+  background-color: rgba(121, 182, 197, 0.658);
+  border-radius: 8px;
+}
+main .container .content-bar #category {
+  margin-top: 70px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(69, 23, 83);
+}
+main .container .content-bar .buttonHandler {
+  /* outline: 1px white solid; */
+  margin-top: 4px;
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 60px 60px;
+  justify-content: space-evenly;
+  align-content: center;
+  grid-row-gap: 8px;
+}
+main .container .content-bar .buttonHandler button {
+  outline: 1px white solid;
+  background-color: rgb(59, 123, 106);
+  border-radius: 8px;
+  border-style: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+main .container .content-bar > .Start1 {
+  outline: 1px white solid;
+  height: 50px;
+  width: 80px;
+  background-color: rgb(39, 154, 0);
+  border-style: none;
+  border-radius: 8px;
+  position: relative;
+  left: 250px;
+  bottom: 100px;
+  cursor: pointer;
+}
+main .container .content-bar > .Start2 {
+  outline: 1px white solid;
+  height: 50px;
+  width: 80px;
+  background-color: rgb(39, 154, 0);
+  border-style: none;
+  border-radius: 8px;
+  position: relative;
+  left: 175px;
+  bottom: 100px;
+  cursor: pointer;
+}
+main .container .content-bar > .Start3 {
+  outline: 1px white solid;
+  height: 50px;
+  width: 80px;
+  background-color: rgb(39, 154, 0);
+  border-style: none;
+  border-radius: 8px;
+  position: relative;
+  left: 80px;
+  bottom: 100px;
+  cursor: pointer;
+}
+main .container .content-bar > .Start4 {
+  outline: 1px white solid;
+  height: 50px;
+  width: 80px;
+  background-color: green;
+  border-style: none;
+  border-radius: 8px;
+  position: relative;
+  left: 0px;
+  bottom: 100px;
+  cursor: pointer;
+}
+
+main .container > .bottom-div {
+  border: 1px rgb(62, 98, 135) solid;
+  border-radius: 8px;
+  background-color: rgb(59, 40, 21);
+  height: 70px;
+  display: grid;
+  justify-content: right;
+  align-content: center;
+}
+main .container > .bottom-div #next1 {
+  outline: 1px white solid;
+  height: 50px;
+  width: 80px;
+  background-color: rgb(9, 118, 118);
+  border-style: none;
+  border-radius: 8px;
+  position: relative;
+  top: 75px;
+  cursor: pointer;
+}
+main .container > .bottom-div #next2 {
+  outline: 1px white solid;
+  height: 50px;
+  width: 80px;
+  background-color: rgb(9, 118, 118);
+  border-style: none;
+  border-radius: 8px;
+  position: relative;
+  top: 25px;
+  cursor: pointer;
+}
+main .container > .bottom-div #next3 {
+  outline: 1px white solid;
+  height: 50px;
+  width: 80px;
+  background-color: rgb(9, 118, 118);
+  border-style: none;
+  border-radius: 8px;
+  position: relative;
+  bottom: 25px;
+  cursor: pointer;
+}
+main .container > .bottom-div #next4 {
+  outline: 1px white solid;
+  height: 50px;
+  width: 80px;
+  background-color: rgb(9, 118, 118);
+  border-style: none;
+  border-radius: 8px;
+  position: relative;
+  bottom: 73px;
+  cursor: pointer;
+}

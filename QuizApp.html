@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./QuizApp.css" />
+  </head>
+  <body>
+    <main>
+      <section class="container">
+        <div class="quiz-app">
+          <div id="quiz-name">The Quiz App</div>
+          <div id="Enter-name">Enter your name to start the quiz</div>
+          <input
+            type="text"
+            placeholder="Enter Your Name"
+            id="text"
+            value=""
+            required
+          />
+          <input type="button" value="Enter" id="button" />
+        </div>
+        <div class="progress-bar">
+          <div id="question-no">Question no :</div>
+          <div id="timer">Remaining time :</div>
+          <div id="score">Maximum marks : 100</div>
+        </div>
+        <div class="content-bar">
+          <!-- <div id="question">qq</div> -->
+          <div id="category">Select the category</div>
+          <div class="buttonHandler">
+            <button id="button1">Pipes and Cisterns</button>
+            <button id="button2">Time and Distances</button>
+            <button id="button3">Ratio and Proportion</button>
+            <button id="button4">Profit and loss</button>
+          </div>
+          <button class="Start1">Start</button>
+          <button class="Start2">Start</button>
+          <button class="Start3">Start</button>
+          <button class="Start4">Start</button>
+        </div>
+        <div class="bottom-div">
+          <button id="next1">Next</button>
+          <button id="next2">Next</button>
+          <button id="next3">Next</button>
+          <button id="next4">Next</button>
+        </div>
+      </section>
+    </main>
+    <script src="./QuizApp.js" defer></script>
+  </body>
+</html>
